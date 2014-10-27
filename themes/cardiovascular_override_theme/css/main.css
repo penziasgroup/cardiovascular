@@ -1,0 +1,69 @@
+/*
+Custom CSS styles that override base theme go here.
+*/
+
+.front .hero-copy {
+display:none;
+}
+
+.front .region-secondary-content .views-field-field-hero-image {
+  width:100%;
+  margin:0;
+  float:none;
+}
+
+
+#block-views-schedule-block .views-field-title strong {
+  font-size:16px;
+  font-style:normal;
+}
+
+.course-admin .bio-full,
+.course-admin .close-me,
+.course-admin .open .read-more {
+  display:none;
+}
+
+.course-admin .open .close-me {
+  display:block;
+}
+
+.course-admin-box h3 {
+  color: #544e49;
+  font-size: 25px;
+  line-height: 28px;
+  margin-bottom: 7px;
+  margin-top: 2px;
+}
+
+.course-admin-box .views-row {
+  overflow: hidden;
+  padding:20px;
+  background: #FFF;
+  margin-bottom:20px;
+}
+
+.course-admin-box .views-field-field-first-name {
+  font-weight:bold;
+}
+
+.course-admin-box .views-field-field-staff-picture {
+  width: 19%;
+  float: left;
+  margin-right: 3%;
+}
+
+.course-admin-box .views-field-field-main-content {
+  width: 78%;
+  float: left;
+}
+
+.course-admin-box .course-director-full-name {
+color: #544e49;
+font-size: 25px;
+}
+
+.schedule-block caption h3 {
+  line-height:21px;
+  margin-bottom:5px;
+}
